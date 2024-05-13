@@ -1,0 +1,345 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: poppins;
+    background-color:mintcream;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/*navigation bar*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    padding: 30px 0px;
+    margin: auto;
+    border-bottom: 1px solid #596cd5;
+}
+
+.logo{
+    color: #596cd5;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.logo:hover{
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li a{
+    color: #4e4e4e;
+    margin: 0px 10px;
+    font-weight: 400;
+    transition: all ease 0.3s;
+}
+
+.menu li a:hover{
+    color: #596cd5;
+    font-weight: 600;
+}
+
+.nav-contact{
+    width: 130px;
+    height: 40px;
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #596cd5;
+    border-radius: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.nav-contact:hover{
+    color: black;
+}
+
+/*introduction body main*/
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.introduction h1{
+    color: #596cd5;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.introduction p:nth-of-type(1){
+    color: #1b1b1b;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.introduction p:nth-of-type(2){
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+.introduction p span{
+    color: #596cd5;
+}
+
+.introduction img{
+    display: flex;
+    margin: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+.introduction a:link{
+    color: blue;
+}
+
+.introduction a:visited{
+    color: blueviolet;
+}
+
+.introduction a:hover{
+    color: green;
+}
+
+.introduction a:active{
+    background-color: yellow;
+}
+
+/*biodata body main*/
+.biodata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.biodata table{
+    border: solid #1b1b1b 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    width: auto;
+    margin: auto;
+    padding: 1%;
+}
+
+.biodata table td:nth-of-type(1) b{
+    background-color: #a4b6ef;
+}
+.biodata table td:nth-of-type(1){
+    border-right:1px solid #a4b6ef;
+    padding: 1.5%;
+    background: #a4b6ef;
+}
+
+.biodata table td:nth-of-type(2){
+    padding: 1%;
+    border-top: 1px solid #a4b6ef;
+    border-bottom: 1px solid #a4b6ef;
+}
+
+.biodata a:link{
+    color: blue;
+}
+
+.biodata a:visited{
+    color: blueviolet;
+}
+
+.biodata a:hover{
+    color: green;
+}
+
+.biodata a:active{
+    background-color: yellow;
+}
+
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contacts a{
+    color: #1b1b1b;
+    margin: 0px 30px;
+    transition: all ease 0.3s;
+}
+
+.copyright{
+    color: #464646;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer-contacts a:hover{
+    color: #596cd5;
+}
+
+/*Skills*/
+.skills-header{
+    color: #596cd5;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 0.5%;
+}
+
+#skills{
+    background-color: transparent;
+    width: 100%;
+}
+
+.skills-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-b-icon i{
+    font-size: 2.6rem;
+    color: #596cd5;
+}
+
+.s-b-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.s-b-text strong{
+    color: #596cd5;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+
+.s-b-text span{
+    color: #596cd5;
+    font-size: 0.9rem;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/*.biodata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 90%;
+    margin: 50px auto;
+}*/
+
+/*ACHVIEVEMENT*/
+.achv-header{
+    color: #596cd5;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 0.5%;
+}
+
+.achv-1{
+    padding: 1.5%;
+    color: #596cd5;
+    text-align: center;
+}
+
+.achv-img1{
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+.achv-3{
+    color: #596cd5;
+    text-align: center;
+    padding: 1.5%;
+    text-decoration: underline dotted black 2px;
+}
+
+/*CONTACT*/
+.contact-me{
+    color: #596cd5;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.contact-p p{
+    color: #596cd5;
+    text-align: center;
+}
+
+.goform form{
+    text-align: center;
+    color: #464646;
+}
+
+textarea{
+    height: 200px;
+    padding: 1.5%;
+    resize: none;
+    border-radius: 7.5%;
+}
+
+input[type=text]{
+    padding: 0.5%;
+    border: none;
+    border-bottom: 2px solid #596cd5;
+    border-radius: 25%;
+}
+  
+
+input[type=submit],
+input[type=reset]{
+    background-color: #596cd5;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
